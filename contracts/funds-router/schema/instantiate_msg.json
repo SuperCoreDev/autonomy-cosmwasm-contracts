@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InstantiateMsg",
+  "type": "object",
+  "required": [
+    "fund_denom",
+    "reg_user_fee_veri_forwarder",
+    "registry"
+  ],
+  "properties": {
+    "fund_denom": {
+      "type": "string"
+    },
+    "reg_user_fee_veri_forwarder": {
+      "type": "string"
+    },
+    "registry": {
+      "type": "string"
+    }
+  }
+}

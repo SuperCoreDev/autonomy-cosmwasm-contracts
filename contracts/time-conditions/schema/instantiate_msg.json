@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InstantiateMsg",
+  "type": "object",
+  "required": [
+    "router_user_veri_forwarder"
+  ],
+  "properties": {
+    "router_user_veri_forwarder": {
+      "type": "string"
+    }
+  }
+}

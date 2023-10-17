@@ -1,0 +1,39 @@
+
+// ---------------------------------------------------------------------------------------------------
+// LocalJuno information
+// ---------------------------------------------------------------------------------------------------
+export const localjuno = {
+  networkInfo: {
+    url: "localhost:26657",
+    chainId: "testing",
+  },
+
+  addresses: {
+    wallet1: "juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y",
+    wallet2: "juno16e3t7td2wu0wmggnxa3xnyu5whljyed69ptvkp",
+    wallet3: "juno1yq0azfkky8aqq4kvzdawrs7tm3rmpl8xs6vcx2",
+  },
+
+  mnemonicKeys: {
+    wallet1: "clip hire initial neck maid actor venue client foam budget lock catalog sweet steak waste crater broccoli pipe steak sister coyote moment obvious choose",
+    wallet2: "audit crawl employ lunch figure cigar chapter wrestle endless process unique angry",
+    wallet3: "ability pitch abuse game alter broccoli lottery warm baby tonight misery lumber",
+  },
+  
+  // Should be updated contract addresses after deploying wasms in the LocalJuno
+  contracts: {
+    // Autonomy common contracts
+    auto: "",
+    registryStake: "",
+
+    // Test "Autonomy-station"
+    fundsRouter: "",
+    timeConditions: "",
+    testCounter: "",
+
+    // Test "Wrapper-Junoswap"
+    tcw: "",  // "TCW": Test cw20 token 
+    tcwUcosmSwap: "",
+    wrapperJunoSwap: "",
+  },
+};

@@ -1,0 +1,77 @@
+{
+  "name": "autonomy-station-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node ./src/index.ts",
+
+    "test:localjuno-setup-common": "npm run test --mode=localjuno_setup_common",
+    "test:localjuno-tests-station": "npm run test --mode=localjuno_tests_station",
+    "test:localjuno-setup-station": "npm run test --mode=localjuno_setup_station",
+    "test:localjuno-tests-junoswap": "npm run test --mode=localjuno_tests_wrapperjunoswap",
+    "test:localjuno-setup-junoswap": "npm run test --mode=localjuno_setup_wrapperjunoswap",
+
+    "test:testjuno-setup-common": "npm run test --mode=testjuno_setup_common",
+    "test:testjuno-tests-station": "npm run test --mode=testjuno_tests_station",
+    "test:testjuno-setup-station": "npm run test --mode=testjuno_setup_station",
+    "test:testjuno-tests-junoswap": "npm run test --mode=testjuno_tests_wrapperjunoswap",
+    "test:testjuno-setup-junoswap": "npm run test --mode=testjuno_setup_wrapperjunoswap",
+
+    "test:mainjuno-setup-common": "npm run test --mode=mainjuno_setup_common",
+    "test:mainjuno-tests-station": "npm run test --mode=mainjuno_tests_station",
+    "test:mainjuno-setup-station": "npm run test --mode=mainjuno_setup_station",
+    "test:mainjuno-tests-junoswap": "npm run test --mode=mainjuno_tests_wrapperjunoswap",
+    "test:mainjuno-setup-junoswap": "npm run test --mode=mainjuno_setup_wrapperjunoswap",
+
+    "test:localterra-setup-common": "npm run test --mode=localterra_setup_common",
+    "test:localterra-tests-station": "npm run test --mode=localterra_tests_station",
+    "test:localterra-setup-station": "npm run test --mode=localterra_setup_station",
+    "test:localterra-tests-astroport": "npm run test --mode=localterra_tests_wrapperastroport",
+    "test:localterra-setup-astroport": "npm run test --mode=localterra_setup_wrapperastroport",
+
+    "test:testterra-setup-common": "npm run test --mode=testterra_setup_common",
+    "test:testterra-tests-station": "npm run test --mode=testterra_tests_station",
+    "test:testterra-setup-station": "npm run test --mode=testterra_setup_station",
+    "test:testterra-tests-astroport": "npm run test --mode=testterra_tests_wrapperastroport",
+    "test:testterra-setup-astroport": "npm run test --mode=testterra_setup_wrapperastroport",
+
+    "test:mainterra-setup-common": "npm run test --mode=mainterra_setup_common",
+    "test:mainterra-tests-station": "npm run test --mode=mainterra_tests_station",
+    "test:mainterra-setup-station": "npm run test --mode=mainterra_setup_station",
+    "test:mainterra-tests-astroport": "npm run test --mode=mainterra_tests_wrapperastroport",
+    "test:mainterra-setup-astroport": "npm run test --mode=mainterra_setup_wrapperastroport",
+
+    "test:localosmosis-setup-common": "npm run test --mode=localosmosis_setup_common",
+    "test:localosmosis-tests-station": "npm run test --mode=localosmosis_tests_station",
+    "test:localosmosis-setup-station": "npm run test --mode=localosmosis_setup_station",
+    "test:localosmosis-tests-wrapper": "npm run test --mode=localosmosis_tests_wrapperosmosis",
+    "test:localosmosis-setup-wrapper": "npm run test --mode=localosmosis_setup_wrapperosmosis"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.28.4",
+    "@cosmjs/proto-signing": "^0.28.4",
+    "@cosmjs/sdk38": "^0.21.1",
+    "@cosmjs/stargate": "^0.28.4",
+    "@types/crypto-js": "^4.0.2",
+    "@terra-money/terra.js": "^3.1.2",
+    "bn.js": "^5.2.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chalk": "^4.1.2",
+    "merkletreejs": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.2.21",
+    "@types/chai-as-promised": "^7.1.4",
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^16.7.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "ts-node": "^10.2.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.3.5"
+  }
+}

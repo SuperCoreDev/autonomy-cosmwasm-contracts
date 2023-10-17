@@ -1,0 +1,9 @@
+build
+node_modules
+.DS_STORE
+test-ledger
+.env
+.env.*
+src/keys
+
+dist

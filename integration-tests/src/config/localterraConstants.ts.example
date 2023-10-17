@@ -1,0 +1,35 @@
+
+// ---------------------------------------------------------------------------------------------------
+// LocalTerra information
+// ---------------------------------------------------------------------------------------------------
+export const localterra = {
+   networkInfo: {
+    url: "http://localhost:1317",
+    chainId: "localterra",
+  },
+
+  // Should be updated contract addresses after deploying wasms in the LocalTerra
+  contracts: {
+    // Autonomy common contracts
+    auto: "",
+    registryStake: "",
+
+    // Test "Autonomy-station"
+    fundsRouter: "",
+    timeConditions: "",
+    testCounter: "",
+
+    // Test "Wrapper-astroport"
+    tcw: "",  // "TCW": Test cw20 token
+    tcwUlunaSwap: "",  // Native - Cw20 pair
+    tcwAutoSwap: "", // cw20 - cw20 pair
+    wrapperAstroport: "",
+
+    astroportFactory: "",
+  },
+
+  contractConsts: {
+    registryFeeAmount: "1000000",
+    registryFeeDenom: "uluna",
+  }
+};
